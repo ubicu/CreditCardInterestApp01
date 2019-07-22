@@ -10,7 +10,7 @@ namespace CreditCardInterestApp01.Core.Implementations
     public class Person : IPerson
     {
         public int ID { get; set; }
-        public IEnumerable<IWallet> Wallets { get; set; }
+        public List<IWallet> Wallets { get; set; }
         public decimal CalculateInterest()
         {
             decimal total = 0.0m;

@@ -9,6 +9,6 @@ namespace CreditCardInterestApp01.Core.Interfaces
     public interface IPerson: ICalculateInterest
     {
         int ID { get; set; }
-        IEnumerable<IWallet> Wallets { get; set; }
+        List<IWallet> Wallets { get; set; }
     }
 }
